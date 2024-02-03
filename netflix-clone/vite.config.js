@@ -15,7 +15,7 @@ export default defineConfig({
       '@': '/src',
     },
   },
-  server: {
+  /* server: {
     proxy: {
       '/api': {
         target: 'https://api.themoviedb.org/3',
@@ -23,5 +23,5 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
     },
-  },
+  }, */
 })
